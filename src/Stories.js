@@ -1,7 +1,7 @@
 
 export default function Stories(){
 
-   let arraystories =[
+   let arrayStories =[
    {src:"images/9gag 1.png", title:"9 Gag"},
    {src:"/images/meowed 1.png", title:"meowed"},
    {src:"/images/nathanwpylestrangeplanet 1.png", title:"nathanwpy"},
@@ -15,7 +15,7 @@ export default function Stories(){
     ]
     
     return (<div class="stories">
-    {arraystories.map(story => 
+    {arrayStories.map(story => 
     <div class="story">
     <img class="stories-bkg" src="/images/stories_background 1.png" />
     <img class="stories-logo" src={story.src} />
